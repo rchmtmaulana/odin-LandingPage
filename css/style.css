@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    min-height: 2000px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 10%;
+    background-color: rgba(31, 41, 55, 0.9); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.navbar .navbar-nav a {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.navbar .navbar-nav a:hover {
+    color: crimson;
+    transition: 0.3s;
+}
+
+/* Hero section */
+.hero {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.hero .content {
+    margin-top: 150px;
+    padding: 1.4rem 10% 8rem;
+    max-width: 50rem;
+}
+
+.hero .content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+
+}
+
+.hero .content p {
+    font-size: 18px;
+    color: #e5e5e5;
+    margin-top: 0.5rem;
+    margin-inline-end: 2rem;
+    line-height: 1.4rem;
+}
+
+.hero .content .cta {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.placeholder {
+    text-align: center;
+    color: #f9faf8;
+    width: 550px;
+    height: 250px;
+    background-color: grey;
+
+}
+
+.placeholder p {
+    margin: 120px 0 0 0;
+}
+
+/* information section */
+.information {
+    padding: 4rem 10% 1.4rem
+}
+
+.information h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
