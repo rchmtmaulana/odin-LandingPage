@@ -9,7 +9,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  
 }
 
 /* Navbar */
@@ -41,7 +40,19 @@ body {
 
 .navbar .navbar-nav a:hover {
   color: crimson;
-  transition: 0.3s;
+}
+
+.navbar .navbar-nav a::after {
+  content: '';
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid crimson;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5);
 }
 
 /* Hero section */
@@ -176,14 +187,14 @@ body {
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #1f2937;
 }
 
 .footer .webfooter p {
-    color: #f9faf8;
-    font-size: 15px;
+  color: #f9faf8;
+  font-size: 15px;
 }
