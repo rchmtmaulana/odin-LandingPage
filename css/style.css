@@ -9,8 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--bg);
-  min-height: 2000px;
+  
 }
 
 /* Navbar */
@@ -174,4 +173,17 @@ body {
   background-color: #3882f6;
   border: white solid 2px;
   border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #1f2937;
+}
+
+.footer .webfooter p {
+    color: #f9faf8;
+    font-size: 15px;
 }
